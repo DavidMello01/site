@@ -1,0 +1,144 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #6a1b9a;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos para Projetos */
+#projetos {
+    background-color: #51165C;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    height: 550px;
+}
+
+#projetos h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.carousel-projetos {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between;
+    height: 90%;
+    
+}
+
+.projeto-item {
+    min-width: 90%;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-buttons button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-buttons button:hover {
+    background-color: #388e3c;
+}
+
+
+/* Estilos para Notícias com cards */
+#noticias {
+    background-color: #51165C;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+#noticias h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel-noticias {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}   
+/*Botar a imagem como fundo e escrever um pouco por cima tipo o do if araquari*/
+.noticia-card {
+    min-width: 40%;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.noticia-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.noticia-card h3 {
+    margin: 15px 0;
+}
+
+.noticia-card p {
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
